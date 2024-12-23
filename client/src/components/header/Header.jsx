@@ -1,30 +1,24 @@
-import { AppBar, Toolbar,styled} from '@mui/material'
+import { AppBar, Toolbar, Typography } from '@mui/material';
+import './Header.css';
+import Search from './Search';
+import NavList from '../navBar/NavList';
+
 function Header() {
-    
-    const HeaderColor = styled(AppBar)`
-    font-family: 'Montserrat', sans-serif;
-    background: rgb(255, 215, 55);
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    height: 20px
-  `;
-    
     return (
-        <div>
-            
-            <HeaderColor>
-            <div className='Offers'>Use code FWFRIDAY to avail ₹50 off. Valid till midnight.
-            </div>
-                {/* <Toolbar>
-                    
+        <>
+            <AppBar position="static" className="header">
+                <div className="offers-text">
+                    Use code FWFRIDAY to avail ₹50 off. Valid till midnight.
+                </div>
 
-                </Toolbar> */}
-            </HeaderColor>
-        </div>
+            </AppBar>  
+            <div>
+                    <img className='Image' src='/assets/logo.png' />
+            </div>        
+            <Search/>
 
-
-    )
+        </>
+    );
 }
+
 export default Header;

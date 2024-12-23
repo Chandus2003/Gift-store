@@ -1,0 +1,42 @@
+*{
+    color: black;
+    font-family:SofiaPro,Arial,sans-serif;
+}
+.header {
+    background: rgb(255, 215, 55) !important;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 15px;
+}
+
+.offers-text {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+}
+
+.toolbar-text {
+    color: black;
+    font-size: 16px;
+    
+}
+
+img.Image{
+    width: 35%;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    height: 80px;
+    display: block;
+    
+   
+    
+}
