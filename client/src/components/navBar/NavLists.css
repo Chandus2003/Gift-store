@@ -1,0 +1,10 @@
+
+.List-Item{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-weight: 600;
+    margin: 5px 0;
+    padding: 5px 0;
+    cursor: pointer;
+}

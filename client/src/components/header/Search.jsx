@@ -35,7 +35,7 @@ function Search() {
             <Wrapper>
                 <SetSearchBox>
                     <SearchIcon />
-                    <Input placeholder="Search for the stuff you love" />
+                    <Input  placeholder="Search for the stuff you love" />
                 </SetSearchBox>
             </Wrapper>
 
