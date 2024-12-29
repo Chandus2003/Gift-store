@@ -15,7 +15,12 @@ function Header() {
                 <div className="icon-container">
                     <li className="Login-Icon">
                         <AddShoppingCartIcon />
-                        <PersonOutlineIcon />
+                        Cart
+                        
+                    </li>
+                    <li className="Login-Icon">
+                    <PersonOutlineIcon />
+                    Login
                     </li>
                 </div>
                 <div>

@@ -1,57 +1,61 @@
-*{
+/* General styling */
+* {
     color: black;
-    font-family:SofiaPro,Arial,sans-serif;
-}
-.header {
-    background-color:#f5f5f5 !important ;
-    font-family: 'Montserrat', sans-serif;
-   
-    
+    font-family: SofiaPro, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Header styling */
+.header {
+    background-color: #f5f5f5 !important;
+    font-family: 'Montserrat', sans-serif;
+    /* padding: 1rem; */
+}
+
+/* Offers text styling */
 .offers-text {
     background: rgb(255, 215, 55) !important;
     color: black;
     font-size: 14px;
     font-weight: bold;
-    width:100%;
+    width: 100%;
     height: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
-/* .Login-Icon{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    gap: 2rem;
-    margin:.5rem 2rem 0 0;
-    border: 1px solid black;
-    
-   
-} */
+
+/* Icon container styling */
 .icon-container {
-    display: inline-flex; /* Makes the div inline and keeps the content inline */
-    align-items: center; 
-    border-radius: 5px; 
-    margin-left: auto; /* Pushes the icons to the end of the line */
-    margin-top: .5rem;
+    display: flex; /* Makes the div a flexible container */
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-top: 0.5rem;
     margin-right: 2rem;
+    gap: 2rem; /* Adds spacing between icons */
 }
 
+/* Login Icon styling */
 .Login-Icon {
-    display: flex; 
-    gap: 1rem; 
-    list-style: none; 
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Space between the icon and text */
+    list-style: none; /* Removes default list styling */
     cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s ease-in-out;
 }
 
+.Login-Icon:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    color: #007bff; /* Change text/icon color on hover */
+}
 
-
-
-
-
+/* Toolbar styling */
 .toolbar {
     display: flex;
     justify-content: center;
@@ -62,9 +66,9 @@
 .toolbar-text {
     color: black;
     font-size: 16px;
-    
 }
 
+/* Responsive image styling */
 img.Image {
     width: 35%;
     max-width: 100%;
@@ -84,4 +88,3 @@ img.Image {
         width: 70%; /* Adjust the image size for mobile devices */
     }
 }
-
